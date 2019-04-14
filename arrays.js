@@ -19,10 +19,16 @@ function addElementToEndOfArray (array, element) {
 
 // -----
 
-function destructivelyAddElementToBeginningOfArray(array, candyString){
-  chocolateBars.unshift(candyString);
-  return chocolateBars;
+function destructivelyAddElementToBeginningOfArray(array, element){
+  array.unshift(element);
+  return array;
 }
+
+// -----
+
+
+
+
 
 
 function addElementToEndOfArray(array, element) {
