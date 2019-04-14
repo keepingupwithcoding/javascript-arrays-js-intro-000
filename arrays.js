@@ -22,10 +22,9 @@ function removeElementFromBeginningOfArray(array) {
 }
 
 
-function destructivelyAddElementToEndOfArray(array) {
-  array.pop()
-  return array
-  
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element);
+  return array;
 }
 
 
