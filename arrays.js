@@ -27,10 +27,12 @@ function removeElementFromBeginningOfArray(array) {
 }
 
 
-function destructivelyAddElementToEndOfArray(array) {
-  array.pop(element);
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element);
   return array;
 }
+
+
 
 function removeElementFromEndOfArray (array) {
   array.slice(0, array.length-1)
