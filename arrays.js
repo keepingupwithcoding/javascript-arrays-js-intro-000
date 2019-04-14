@@ -7,11 +7,17 @@ function addElementToBeginningOfArray (array, element) {
   return [element, ...array]
 }
 
-function destructivelyAddElementToBeginningOfArray(array, elementN){
-  array.unshift(elementN)
-  console.log(array);
-  return;
+function destructivelyAddElementToBeginningOfArray(array){
+  array.shift()
+  return array
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
+  chocolateBars.shift();
+  return chocolateBars;
+}
+
+
 function addElementToEndOfArray(array, element) {
   return [...array, element];	
   
