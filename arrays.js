@@ -40,7 +40,10 @@ function accessElementInArray(array, index){
 //  -----
 
 
-
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift();
+  return array;
+}
 
 
  
