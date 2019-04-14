@@ -11,10 +11,11 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 }
 
 
-function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
-  chocolateBars.shift();
-  return chocolateBars;
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift();
+  return array;
 }
+
 
 
 function addElementToEndOfArray(array, element) {
