@@ -38,6 +38,8 @@ function removeElementFromEndOfArray (array) {
 }
 
 
-function eccessElementInArray (array, index) {
-  return array[index]
+
+function accessElementInArray(array, index){
+  return array[index];
 }
+ 
