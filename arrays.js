@@ -41,8 +41,12 @@ function accessElementInArray(array, index){
 
 
 function removeElementFromBeginningOfArray(array){
-  return chocolateBars.slice(1);
+  return array.slice(1);
 }
+
+//  -----
+
+
 
 
  
